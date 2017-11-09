@@ -27,7 +27,7 @@ See screenshot and sample MOV in the source repository
 
 # Steps to Reproduce - Sample App
 
-1. Test harness source code available from GitHub:
+1. Test harness source code available from GitHub: https://github.com/downtown2112/FileProviderDomainRadar
 2. Install FileProviderDomainRadar on an iPad that supports side-by-side multitasking (changing signing credentials in XCode as necessary)
 3. After the app launches, open the Files app in multitasking mode
 4. FileProviderDomainRadar will have an empty table.
