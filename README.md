@@ -7,6 +7,9 @@ The issue is that removing an NSFileProviderDomain does not update any system UI
 
 Note that ADDING a domain DOES immediately update system UIs.  Interestingly, ADDING a new domain also causes extensions based on a deleted domain to disappear from the UI.
 
+See screenshot and sample MOV in the source repository
+
+
 
 # Steps to Reproduce - Generic
 1. Implement rudimentary support for a File Provider in an application.  (I just used the stock boilerplate template and code.)
