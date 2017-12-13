@@ -1,5 +1,15 @@
 # FileProviderDomainRadar
 
+# Update
+Entered bug 35440852 (NSFileProviderExtensions not removed from UI when removing a NSFileProviderDomain) on November 9th.
+
+Requested status update on 12/1 - no response
+Requested status update again on 12/12
+
+Received the following canned response:
+"Thank you for contacting us. At this time, there isn't any new information available for this issue.    We will do our best to keep you informed as new information becomes available. Please be sure to regularly check the seed and release notes for potential or related fixes that might affect this issue.   We sincerely appreciate your patience and thank you for your support."
+
+
 # Description
 I am utilizing NSFileProviderDomains to segregate a single file provider into multiple NSFileProviderExtension. Each domain will represent a separate user account and is necessary so that the extension may fetch data with the correct set of credentials.
 
@@ -45,3 +55,18 @@ See screenshot and sample MOV in the source repository
 
 # Expected Result
 When deleting a NSFileProviderDomain, an extension based on this domain should be removed from system UIs
+
+
+# Mildly Related Bugs
+Also have entered the following related bugs/issues:
+35796482 (Cannot specify accepted UTIs for iOS File Provider)
+marked as duplicate of 33700931
+
+35796992 (iOS 11 File Provider cannot register for background/foreground notifications)
+marked as duplicate of 34548315
+
+35796865 (Need a sample app showing file provider best practices and limitations)
+No action at all
+
+35796540 (File Provider - Can Not Move/Export to Root Container)
+No action at all
